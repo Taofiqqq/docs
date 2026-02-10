@@ -40,4 +40,30 @@ Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/sett
 - If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
 
 ### Resources
+
 - [Mintlify documentation](https://mintlify.com/docs)
+
+        <!-- // {
+        //   "anchor": "Documentation",
+        //   "href": "https://mintlify.com/docs",
+        //   "icon": "book-open-cover"
+        // },
+        // {
+        //   "anchor": "Blog",
+        //   "href": "https://mintlify.com/blog",
+        //   "icon": "newspaper"
+        // } -->
+
+<!--
+              {
+                "group": "Webhooks",
+                "icon": "webhook",
+                "pages": [
+                  "webhooks/overview",
+                  "webhooks/configure",
+                  "webhooks/verify",
+                  "webhooks/payload",
+                  "webhooks/events",
+                  "webhooks/troubleshooting"
+                ]
+              } -->

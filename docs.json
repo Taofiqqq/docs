@@ -11,22 +11,15 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Get Started",
         "groups": [
           {
             "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "pages": ["index", "quickstart", "development", "glossary"]
           },
           {
             "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
+            "pages": ["essentials/settings", "essentials/navigation"]
           },
           {
             "group": "Writing content",
@@ -48,39 +41,40 @@
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
+        "tab": "Payments",
+        "pages": [
+          "payments/introduction",
+          "payments/how-payments-work",
+          "payments/currencies",
+          "payments/getting-started"
+        ]
+      },
+      {
+        "tab": "Developer Resources",
+        "pages": [
+          "developer-resources/introduction",
           {
-            "group": "API documentation",
+            "group": "Webhooks",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "webhooks/overview",
+              "webhooks/configure",
+              "webhooks/verify",
+              "webhooks/payload",
+              "webhooks/events",
+              "webhooks/troubleshooting"
             ]
           }
         ]
+      },
+      {
+        "tab": "Support"
+      },
+      {
+        "tab": "Changelog"
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+      "anchors": []
     }
   },
   "logo": {
@@ -102,15 +96,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
