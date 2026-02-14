@@ -1,7 +1,10 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "palm",
+  "name": "Fincra Docs",
+  "fonts": {
+    "family": "Google Sans"
+  },
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,7 +14,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Get Started",
+        "tab": "Home",
         "groups": [
           {
             "group": "Getting started",
@@ -42,17 +45,154 @@
       },
       {
         "tab": "Payments",
-        "pages": [
-          "payments/introduction",
-          "payments/how-payments-work",
-          "payments/currencies",
-          "payments/getting-started"
+        "groups": [
+          {
+            "group": "Payments",
+            "pages": [
+              "payments/introduction",
+              "payments/how-payments-work",
+              "payments/getting-started",
+              "payments/currencies"
+            ]
+          },
+          {
+            "group": "Checkout",
+            "pages": ["payments/hosted-payment-page", "drop-in-element"]
+          },
+          {
+            "group": "Payment Links",
+            "pages": ["payments/overview"]
+          },
+          {
+            "group": "Direct Charge API",
+            "pages": ["payments/overview"]
+          },
+          {
+            "group": "Virtual Accounts",
+            "pages": ["payments/overview"]
+          },
+          {
+            "group": "Manage payments",
+            "pages": [
+              {
+                "group": "Disputes",
+                "pages": ["payments/chargebacks"]
+              },
+              "payments/refunds",
+              "payments/verify-payments",
+              "payments/settlements",
+              "payments/reporting"
+            ]
+          },
+          {
+            "group": "Payment Methods",
+            "pages": ["payments/overview"]
+          },
+          {
+            "group": "Test and Go live",
+            "pages": ["payments/overview"]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": ["payments/overview"]
+          }
         ]
       },
       {
+        "tab": "Payouts",
+        "groups": [
+          {
+            "group": "Payouts",
+            "pages": [
+              "payouts/overview",
+              "payouts/how-payouts-work",
+              "Payout Coverage"
+            ]
+          },
+          {
+            "group": "Transfer",
+            "pages": ["payouts/initiate-transfer"]
+          },
+          {
+            "group": "Beneficiaries",
+            "pages": [
+              "payouts/create-beneficiaries",
+              "payouts/retrieve-beneficiaries",
+              "payouts/manage-beneficiaries"
+            ]
+          },
+          {
+            "group": "Use Cases",
+            "pages": [
+              "payouts/remittance",
+              "payouts/payroll",
+              "payouts/vendor-payments"
+            ]
+          },
+          {
+            "group": "Payout Rails",
+            "pages": ["payouts/overvie"]
+          },
+          {
+            "group": "Manage Payouts",
+            "pages": ["payouts/overvie"]
+          },
+          {
+            "group": "Test and go live",
+            "pages": ["payouts/overvie"]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": ["payouts/overvie"]
+          }
+        ]
+      },
+      {
+        "tab": "Transactional FX",
+        "groups": [
+          {
+            "group": "Get Started"
+          },
+          {
+            "group": "Use Cases",
+            "pages": ["fx/use-cases"]
+          },
+          {
+            "group": "Troubleshooting"
+          }
+        ]
+      },
+      {
+        "tab": "Direct Debit"
+      },
+      {
+        "tab": "Verification"
+      },
+      {
         "tab": "Developer Resources",
-        "pages": [
-          "developer-resources/introduction",
+        "groups": [
+          {
+            "group": "Developer Resources",
+            "pages": [
+              "developer-resources/overview",
+              {
+                "group": "API",
+                "pages": [
+                  "developer-resources/postman-collection",
+                  "developer-resources/manage-api-keys",
+                  "developer-resources/rate-limits",
+                  "developer-resources/ip-whitelisting"
+                ]
+              },
+              {
+                "group": "Fincra SDKs",
+                "pages": [
+                  "developer-resources/server-side-sdks",
+                  "developer-resources/mobile-sdks"
+                ]
+              }
+            ]
+          },
           {
             "group": "Webhooks",
             "pages": [
@@ -67,10 +207,22 @@
         ]
       },
       {
-        "tab": "Support"
+        "tab": "Support",
+        "groups": [
+          {
+            "group": "Support",
+            "pages": ["support"]
+          }
+        ]
       },
       {
-        "tab": "Changelog"
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Changelog",
+            "pages": ["changelog"]
+          }
+        ]
       }
     ],
     "global": {
@@ -108,9 +260,10 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/FincraHQ",
+      "youtube": "https://www.youtube.com/@fincraHQ",
+      "linkedin": "https://www.linkedin.com/company/fincrahq/posts/?feedView=all",
+      "instagram": "https://www.instagram.com/fincrahq/?hl=en"
     }
   }
 }
