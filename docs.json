@@ -166,7 +166,30 @@
         "tab": "Direct Debit"
       },
       {
-        "tab": "Verification"
+        "tab": "Verification",
+        "groups": [
+          {
+            "group": "Verification",
+            "pages": ["verification/overview"]
+          },
+          {
+            "group": "Account Number Verification",
+            "pages": [
+              {
+                "group": "Verify a Beneficiary Account",
+                "pages": ["verification/nigeria", "verification/ghana"]
+              }
+            ]
+          },
+          {
+            "group": "Customer Validation",
+            "pages": ["verification/verify-a-bvn"]
+          },
+          {
+            "group": "Card BIN Lookup",
+            "pages": ["verification/resolve-a-card-bin"]
+          }
+        ]
       },
       {
         "tab": "Developer Resources",
@@ -203,6 +226,14 @@
               "webhooks/events",
               "webhooks/troubleshooting"
             ]
+          },
+          {
+            "group": "Sandbox environment",
+            "pages": ["sandbox/overview"]
+          },
+          {
+            "group": "Testing",
+            "pages": ["sandbox/testing"]
           }
         ]
       },
