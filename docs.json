@@ -18,28 +18,28 @@
         "groups": [
           {
             "group": "Home",
-            "pages": ["index", "quickstart", "development", "glossary"]
+            "pages": ["index"]
           },
           {
-            "group": "Customization",
-            "pages": ["essentials/settings", "essentials/navigation"]
-          },
-          {
-            "group": "Writing content",
+            "group": "Get Started",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "get-started/create-your-account",
+              "get-started/complete-verification",
+              "get-started/explore-the-dashboard",
+              "get-started/go-live-checklist"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Use Cases",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "use-cases/accept-payments",
+              "use-cases/send-payouts",
+              "use-cases/collect-via-virtual-accounts"
             ]
+          },
+          {
+            "group": "Glossary",
+            "pages": ["glossary"]
           }
         ]
       },
