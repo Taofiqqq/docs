@@ -17,7 +17,7 @@
         "tab": "Home",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Home",
             "pages": ["index", "quickstart", "development", "glossary"]
           },
           {
@@ -148,7 +148,7 @@
         ]
       },
       {
-        "tab": "Transactional FX",
+        "tab": "Currency Conversion",
         "groups": [
           {
             "group": "Get Started"
