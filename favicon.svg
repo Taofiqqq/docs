@@ -1,19 +1,20 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.06145 23.1079C5.26816 22.3769 -3.39077 20.6274 1.4173 5.06384C9.6344 6.09939 16.9728 14.0644 9.06145 23.1079Z" fill="url(#paint0_linear_17557_2021)"/>
-<path d="M8.91928 23.0939C5.27642 21.2223 0.78371 4.20891 17.0071 0C20.7569 7.19341 19.6212 16.5452 8.91928 23.0939Z" fill="url(#paint1_linear_17557_2021)"/>
-<path d="M8.91388 23.0788C8.73534 19.8817 10.1585 9.08525 23.5699 13.1107C23.1812 20.1229 18.984 26.4182 8.91388 23.0788Z" fill="url(#paint2_linear_17557_2021)"/>
-<defs>
-<linearGradient id="paint0_linear_17557_2021" x1="3.77557" y1="5.91571" x2="5.23185" y2="21.5589" gradientUnits="userSpaceOnUse">
-<stop stop-color="#18E299"/>
-<stop offset="1" stop-color="#15803D"/>
-</linearGradient>
-<linearGradient id="paint1_linear_17557_2021" x1="12.1711" y1="-0.718425" x2="10.1897" y2="22.9832" gradientUnits="userSpaceOnUse">
-<stop stop-color="#16A34A"/>
-<stop offset="1" stop-color="#4ADE80"/>
-</linearGradient>
-<linearGradient id="paint2_linear_17557_2021" x1="23.1327" y1="15.353" x2="9.33841" y2="18.5196" gradientUnits="userSpaceOnUse">
-<stop stop-color="#4ADE80"/>
-<stop offset="1" stop-color="#0D9373"/>
-</linearGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">  <image id="image0" width="16" height="16" x="0" y="0"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABOFBMVEUAAAB5Mf9zMvx0NP10
+NPx0NPx1Nf11NPxzM/8AAP9mM/92Mvx1Nf51Nf11NP50NP11Nf11Nf1zM/tzM/x1NP11Nf11NPx0
+NPx1NPx1M/91Nf91Nf11Nf11NPxxKv90Lv9xHP91NPx0Nf11Nf1zNPxiJ+t1M/t2NP90Nf10NP1w
+M/+AKv9gIP9zMP90NPx0NP11Nf50NP1zM/10NP11M/51NP50NP51Nf11Nf11Nf10Nf51NP11Nfxz
+M/10M/xyMft0M/50M/12O/9zNPx1NP1zM/1zNPx1NP11Nf10NPx1KvRyL/9zMvt1NP10M/11Nf10
+Nf11NP1xL/Z1Nf11Nf12M/10NP10M/10M/11Nf11Nf11Nf+AAP9tM/h1NP11Nfx1NP11Nf11NP51
+M/13M/+AAIB1Nf3///8+L/XwAAAAZnRSTlMAFVuYucCbWRQBBVvU+9h79fZ8X/jVxMO6Mhja41MS
+Cwli/PlZDZBdqdsZBgg1q6LG137N3+Dm6PL+wc28aEtDroYNqKZtsZf8YxgxR3F3i9X9G6P6aJOL
+cufiaQIjdrfe1LVtHgJamJv5AAAAAWJLR0RnW9PpswAAAAd0SU1FB+oCEAc1OjCgmzoAAADQSURB
+VBjTY2AAAkYmZhZWNnYOTgYw4OLm4U0DAl4+di4wn18gDQoEhYAinMKCaWkiomLiICAhycAgJZ2W
+JiMrB9Uur8CgqJSmrMIABapq6gwaaWmaWto6ICCvq8erz2CQlmZoZGxiYmJqZm5hmWbFYJ3Ga2Nr
+Z29vbwu2zIrBQcRRHqTdydkSJODC4OqmAOJLuXuA+EqeDF7e8j6+fv4BgWCnSQcBrQ4Ogbk0TSQU
+6B6dMCU4P1wH7LqISLD6wKhoHYj7YmLj4hMSk5JTUoEcAKfZMi6JVT7iAAAAJXRFWHRkYXRlOmNy
+ZWF0ZQAyMDI2LTAyLTE2VDA3OjUzOjU4KzAwOjAwQvLJPgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAy
+Ni0wMi0xNlQwNzo1Mzo1OCswMDowMDOvcYIAAAAASUVORK5CYII=" />
 </svg>

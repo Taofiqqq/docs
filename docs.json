@@ -10,7 +10,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -177,6 +177,7 @@
             "pages": [
               {
                 "group": "Verify a Beneficiary Account",
+                "root": "verification/verify-a-beneficiary-account",
                 "pages": ["verification/nigeria", "verification/ghana"]
               }
             ]
@@ -261,8 +262,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/finc.svg",
+    "dark": "/logo/finc.svg"
   },
   "navbar": {
     "links": [
