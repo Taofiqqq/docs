@@ -151,14 +151,48 @@
         "tab": "Currency Conversion",
         "groups": [
           {
-            "group": "Get Started"
+            "group": "Currency Conversion",
+            "pages": [
+              "conversion/overview",
+              "conversion/how-currency-conversion-works",
+              "conversion/supported-currency-pairs"
+            ]
+          },
+          {
+            "group": "Get Started",
+            "pages": [
+              {
+                "group": "Choose Your FX Solution",
+                "root": "conversion/choose-your-fx-solution",
+                "pages": [
+                  "conversion/rates",
+                  "conversion/quotes"
+                ]
+              },
+              "conversion/create-a-conversion"
+            ]
           },
           {
             "group": "Use Cases",
-            "pages": ["fx/use-cases"]
+            "pages": [
+              "conversion/travel-and-hospitality",
+              "conversion/payroll",
+              "conversion/digital-marketplaces",
+              "conversion/international-trade-settlement",
+              "conversion/education-and-tuition-payments"
+            ]
           },
           {
-            "group": "Troubleshooting"
+            "group": "Troubleshooting",
+            "pages": [
+              "conversion/error-codes"
+            ]
+          },
+          {
+            "group": "Test and Go Live",
+            "pages": [
+              "conversion/integration-checklist"
+            ]
           }
         ]
       },
@@ -295,7 +329,8 @@
       "x": "https://x.com/FincraHQ",
       "youtube": "https://www.youtube.com/@fincraHQ",
       "linkedin": "https://www.linkedin.com/company/fincrahq/posts/?feedView=all",
-      "instagram": "https://www.instagram.com/fincrahq/?hl=en"
+      "instagram": "https://www.instagram.com/fincrahq/?hl=en",
+      "slack": "https://x.com/FincraHQ"
     }
   }
 }
