@@ -161,15 +161,15 @@
           {
             "group": "Get Started",
             "pages": [
+              "conversion/create-a-conversion",
               {
                 "group": "Choose Your FX Solution",
                 "root": "conversion/choose-your-fx-solution",
                 "pages": [
-                  "conversion/rates",
-                  "conversion/quotes"
+                  "conversion/quotes",
+                  "conversion/rates"
                 ]
-              },
-              "conversion/create-a-conversion"
+              }
             ]
           },
           {
