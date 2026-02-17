@@ -197,7 +197,52 @@
         ]
       },
       {
-        "tab": "Direct Debit"
+        "tab": "Direct Debit",
+        "groups": [
+          {
+            "group": "Direct Debit",
+            "pages": [
+              "direct-debit/overview",
+              "direct-debit/how-direct-debit-works",
+              "direct-debit/supported-banks",
+              "direct-debit/get-started"
+            ]
+          },
+          {
+            "group": "Mandates",
+            "pages": [
+              "direct-debit/create-a-mandate",
+              "direct-debit/manage-mandates"
+            ]
+          },
+          {
+            "group": "Collect",
+            "pages": [
+              "direct-debit/collect-a-payment"
+            ]
+          },
+          {
+            "group": "Use Cases",
+            "pages": [
+              "direct-debit/loan-repayment",
+              "direct-debit/insurance-premiums",
+              "direct-debit/subscription-billing",
+              "direct-debit/savings-and-investments"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "direct-debit/troubleshooting"
+            ]
+          },
+          {
+            "group": "Go Live",
+            "pages": [
+              "direct-debit/integration-checklist"
+            ]
+          }
+        ]
       },
       {
         "tab": "Verification",
