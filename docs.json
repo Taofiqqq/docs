@@ -105,13 +105,42 @@
             "group": "Payouts",
             "pages": [
               "payouts/overview",
-              "payouts/how-payouts-work",
-              "Payout Coverage"
+              {
+                "group": "How Fincra Payouts Work",
+                "root": "payouts/how-payouts-work",
+                "pages": [
+                  "payouts/currency-precision"
+                ]
+              },
+              {
+                "group": "Payout Coverage",
+                "root": "payouts/payout-coverage",
+                "pages": [
+                  "payouts/nigeria",
+                  "payouts/ghana",
+                  "payouts/kenya",
+                  "payouts/uganda",
+                  "payouts/zambia",
+                  "payouts/tanzania",
+                  "payouts/cameroon",
+                  "payouts/senegal",
+                  "payouts/south-africa",
+                  "payouts/egypt",
+                  "payouts/united-states",
+                  "payouts/united-kingdom",
+                  "payouts/eurozone"
+                ]
+              }
             ]
           },
           {
             "group": "Transfer",
-            "pages": ["payouts/initiate-transfer"]
+            "pages": [
+              "payouts/initiate-transfer",
+              "payouts/wallet-transfers",
+              "payouts/track-payouts",
+              "payouts/reporting"
+            ]
           },
           {
             "group": "Beneficiaries",
@@ -126,24 +155,32 @@
             "pages": [
               "payouts/remittance",
               "payouts/payroll",
-              "payouts/vendor-payments"
+              "payouts/vendor-payments",
+              "payouts/marketplace-payouts"
             ]
           },
           {
-            "group": "Payout Rails",
-            "pages": ["payouts/overvie"]
-          },
-          {
-            "group": "Manage Payouts",
-            "pages": ["payouts/overvie"]
-          },
-          {
-            "group": "Test and go live",
-            "pages": ["payouts/overvie"]
+            "group": "Test and Go Live",
+            "pages": ["payouts/integration-checklist"]
           },
           {
             "group": "Troubleshooting",
-            "pages": ["payouts/overvie"]
+            "pages": ["payouts/error-codes"]
+          }
+        ]
+      },
+      {
+        "tab": "Wallets",
+        "groups": [
+          {
+            "group": "Wallets",
+            "pages": [
+              "wallets/overview",
+              "wallets/manage-wallets",
+              "wallets/fund-your-wallet",
+              "wallets/balance-history",
+              "wallets/statement-of-account"
+            ]
           }
         ]
       },
@@ -280,6 +317,7 @@
               "developer-resources/overview",
               {
                 "group": "API",
+                "root": "developer-resources/api",
                 "pages": [
                   "developer-resources/postman-collection",
                   "developer-resources/manage-api-keys",
@@ -289,6 +327,7 @@
               },
               {
                 "group": "Fincra SDKs",
+                "root": "developer-resources/sdks",
                 "pages": [
                   "developer-resources/server-side-sdks",
                   "developer-resources/mobile-sdks"
@@ -308,12 +347,11 @@
             ]
           },
           {
-            "group": "Sandbox environment",
-            "pages": ["sandbox/overview"]
-          },
-          {
-            "group": "Testing",
-            "pages": ["sandbox/testing"]
+            "group": "Sandbox Environment",
+            "pages": [
+              "sandbox/overview",
+              "sandbox/testing"
+            ]
           }
         ]
       },

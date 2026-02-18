@@ -1,0 +1,38 @@
+---
+title: "Statement of Account"
+description: "Generate a wallet statement for a specific date range and currency."
+---
+
+A statement of account is a formal summary of all activity on a wallet over a specified date range. Use it for accounting, reconciliation, regulatory reporting, or sharing with your finance team.
+
+## Generate via dashboard
+
+1. Go to the **Balance** tab in [app.fincra.com](https://app.fincra.com)
+2. Select the currency wallet
+3. Set your date range
+4. Download the statement
+
+## Generate via API
+
+```bash
+curl --request GET \
+  --url 'https://api.fincra.com/wallets/statement' \
+  --header 'api-key: YOUR_API_KEY'
+```
+
+<Info>
+  Statement of account endpoint path, query parameters (currency, start date, end date, format), and response structure will be documented here once confirmed.
+</Info>
+
+## What's in a statement
+
+A wallet statement includes all credits and debits for the selected currency over the chosen date range:
+
+- Opening and closing balance
+- Itemized transaction log (payments in, payouts out, conversions, top-ups, wallet transfers)
+- Transaction references and timestamps
+- Net movement for the period
+
+## Related
+
+- [Balance History](/wallets/balance-history) — full wallet logs and CSV export
