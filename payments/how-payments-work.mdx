@@ -57,11 +57,12 @@ Settlement timelines depend on the payment method:
 
 | Payment Method     | Settlement Timeline |
 | ------------------ | ------------------- |
-| Cards              | [fill in]           |
-| Bank Transfer      | [fill in]           |
-| Mobile Money       | [fill in]           |
-| PayAttitude (USSD) | [fill in]           |
-| EFT                | [fill in]           |
+| Bank Transfer      | Instant             |
+| Mobile Money       | Instant             |
+| PalmPay            | Instant             |
+| PayAttitude (USSD) | Instant             |
+| Cards              | T+1                 |
+| EFT                | T+1                 |
 
 Once settled, you can view your balance on the Fincra dashboard or via the Balance API, and use the funds for payouts, conversions, or withdrawals.
 
@@ -75,7 +76,7 @@ To receive webhooks, you need to:
 3. Validate the webhook signature using your webhook secret key
 4. Process the event and respond with a `200` status
 
-For full details, see [Webhooks](/api-integration/webhooks).
+For full details, see [Webhooks](/webhooks/overview).
 
 ## Fees
 
