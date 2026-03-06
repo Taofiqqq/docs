@@ -72,10 +72,7 @@
           },
           {
             "group": "Direct Charge API",
-            "pages": [
-              "payments/direct-charge",
-              "payments/accept-a-payment"
-            ]
+            "pages": ["payments/direct-charge", "payments/accept-a-payment"]
           },
           {
             "group": "Virtual Accounts",
@@ -126,9 +123,7 @@
               {
                 "group": "How Fincra Payouts Work",
                 "root": "payouts/how-payouts-work",
-                "pages": [
-                  "payouts/currency-precision"
-                ]
+                "pages": ["payouts/currency-precision"]
               },
               {
                 "group": "Payout Coverage",
@@ -220,10 +215,7 @@
               {
                 "group": "Choose Your FX Solution",
                 "root": "conversion/choose-your-fx-solution",
-                "pages": [
-                  "conversion/quotes",
-                  "conversion/rates"
-                ]
+                "pages": ["conversion/quotes", "conversion/rates"]
               }
             ]
           },
@@ -239,15 +231,11 @@
           },
           {
             "group": "Troubleshooting",
-            "pages": [
-              "conversion/error-codes"
-            ]
+            "pages": ["conversion/error-codes"]
           },
           {
             "group": "Test and Go Live",
-            "pages": [
-              "conversion/integration-checklist"
-            ]
+            "pages": ["conversion/integration-checklist"]
           }
         ]
       },
@@ -272,9 +260,7 @@
           },
           {
             "group": "Collect",
-            "pages": [
-              "direct-debit/collect-a-payment"
-            ]
+            "pages": ["direct-debit/collect-a-payment"]
           },
           {
             "group": "Use Cases",
@@ -287,15 +273,11 @@
           },
           {
             "group": "Troubleshooting",
-            "pages": [
-              "direct-debit/troubleshooting"
-            ]
+            "pages": ["direct-debit/troubleshooting"]
           },
           {
             "group": "Go Live",
-            "pages": [
-              "direct-debit/integration-checklist"
-            ]
+            "pages": ["direct-debit/integration-checklist"]
           }
         ]
       },
@@ -366,10 +348,7 @@
           },
           {
             "group": "Sandbox Environment",
-            "pages": [
-              "sandbox/overview",
-              "sandbox/testing"
-            ]
+            "pages": ["sandbox/overview", "sandbox/testing"]
           }
         ]
       },
@@ -424,6 +403,11 @@
       "cursor",
       "vscode"
     ]
+  },
+  "integrations": {
+    "telemetry": {
+      "enabled": true
+    }
   },
   "footer": {
     "socials": {
